@@ -1,0 +1,31 @@
+{
+  "name": "socialshare-backend",
+  "version": "1.0.0",
+  "description": "Este es un proyecto de desarrollo de una app funcionl que permita hacer blogs, registrar usuarios, chatear y demás cosas. Se contará con un despliegue en Heroku de la app.",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "npm test",
+    "prepush": "npm test",
+    "test": "mocha spec/test.js",
+    "start": "node src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xhoria-RB/SocialShare-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xhoria-RB/SocialShare-backend/issues"
+  },
+  "homepage": "https://github.com/Xhoria-RB/SocialShare-backend#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "husky": "^0.14.3",
+    "mocha": "^5.2.0"
+  }
+}
