@@ -1,5 +1,5 @@
 // Require the built in 'assertion' library
-var assert = require('assert');
+const assert = require('assert');
 // Create a group of tests about Arrays
 describe('Array', function() {
   // Within our Array group, Create a group of tests for indexOf

@@ -1,13 +1,15 @@
 {
   "name": "socialshare-backend",
   "version": "1.0.0",
-  "description": "Este es un proyecto de desarrollo de una app funcionl que permita hacer blogs, registrar usuarios, chatear y demás cosas. Se contará con un despliegue en Heroku de la app.",
+  "description": "A project to develop a functional blogging app with user accounts, chat and more.",
   "main": "index.js",
   "scripts": {
-    "precommit": "npm test",
+    "precommit": "npm run lint && npm test",
     "prepush": "npm test",
+    "pretest": "npm run lint",
     "test": "mocha spec/test.js",
-    "start": "node src/server/server.js"
+    "start": "node src/server/server.js",
+    "lint": "eslint src spec/ --ext .js"
   },
   "repository": {
     "type": "git",
