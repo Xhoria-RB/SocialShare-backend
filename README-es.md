@@ -1,11 +1,14 @@
 # Proyecto MERN
-Este es un proyecto de desarrollo de una app funcionl que permita hacer blogs, registrar usuarios, chatear y demás cosas. Se contará con un despliegue en Heroku de la app.
+
+*Este README puede ser leído en [Inglés](README.md)*
+
+Este es un proyecto de desarrollo de una app funcional que permita hacer blogs, registrar usuarios, chatear y demás cosas. Se contará con un despliegue en Heroku de la app.
 
 ## Requisitos del sistema:
 
 **Requisitos funcionales**
 
-- El usuario debe ser capaz de registrarse mediante un form
+- El usuario debe ser capaz de registrarse mediante un formulario
 - El usaurio debe ser capaz de registrarse con Google Sign In
 - El usuario debe ser capaz de ingresar al sistema usando credenciales de Google Sign in / nativas 
 - El usuario debe ser capaz de crear un artículo
@@ -37,5 +40,3 @@ Este es un proyecto de desarrollo de una app funcionl que permita hacer blogs, r
 - Test:
   - Mocha
   - Chai
-
-

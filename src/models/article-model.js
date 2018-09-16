@@ -23,4 +23,5 @@ const articleSchema = new Schema({
     ref: 'Users'
   }
 });
+
 module.exports = mongoose.model('Article', articleSchema);

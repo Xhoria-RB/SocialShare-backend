@@ -1,5 +1,8 @@
 # MERN Project
-This is a project to develop a funcionl app that allows blogging, registering users, chatting and other things. There will be a deployment in Heroku of the app.
+
+*This readme can also be read in [Spanish](README-es.md).*
+
+This is a project to develop a functional app that allows blogging, registering users, chatting and other things. There will be a deployment in Heroku of the app.
 
 ## System Requirements:
 

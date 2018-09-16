@@ -4,12 +4,12 @@
   "description": "A project to develop a functional blogging app with user accounts, chat and more.",
   "main": "index.js",
   "scripts": {
-    "precommit": "npm run lint && npm test",
+    "precommit": "npm run lint",
     "prepush": "npm test",
     "pretest": "npm run lint",
-    "test": "mocha spec/test.js",
-    "start": "node src/server/server.js",
-    "lint": "eslint src spec/ --ext .js"
+    "test": "mocha tests/**/*.js",
+    "start": "node src/app.js",
+    "lint": "eslint src tests --ext .js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "eslint": "^5.6.0",
     "husky": "^0.14.3",
     "mocha": "^5.2.0"
   }
